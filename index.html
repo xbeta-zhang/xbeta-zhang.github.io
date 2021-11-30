@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>善用佳软200</title>
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+</body>
+
+<script>
+
+window.$docsify = {
+  markdown: {
+	  breaks: true
+  },
+    loadSidebar: true,
+    subMaxLevel: 3,
+
+    loadNavbar: true,
+    mergeNavbar: true,
+    // subMaxLevel: 2
+
+    auto2top: true,
+
+    search: {
+      noData: {
+        '/': 'No results!',
+        '/zh-cn/': '无结果!',
+      },
+      paths: 'auto',
+      placeholder: {
+        '/': 'Search',
+        '/zh-cn/': '搜索',
+      }
+    },
+  }
+</script>
+<script src="//cdn.jsdelivr.net/npm/docsify@latest/lib/docsify.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify@latest/lib/plugins/search.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify@latest/lib/plugins/zoom-image.min.js"></script>
+
+</html>
